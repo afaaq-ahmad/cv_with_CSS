@@ -1,0 +1,119 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 5.5rem;
+    color: rgb(250, 107, 214);
+}
+h2{
+    font-size: 1.8rem;
+    color: rgb(194, 24, 171);
+    margin: 10px auto 70px auto;
+    font-weight: normal;
+}
+h3{
+    color: rgb(153, 22, 135);
+}
+p{
+    color: darkmagenta;
+}
+hr{
+    width: 5%;
+    border: 10px dotted;
+    border-bottom: none;
+    margin: 100px auto;
+    color: coral;
+}
+.bottom_cloud{
+    position: absolute;
+    
+    margin-top: 50px;
+}
+.top_cloud{
+    position: relative;
+    left: 250px;
+    margin-top: 50px;
+}
+.profile_pic{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    float: left;
+    margin: 10px 30px 10px 0;
+}
+.skill-img2{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    float: right;
+    margin: 10px  10px 30px;
+}
+.btn {
+    margin: 20px auto 20px auto;
+    background: #c73eb7;
+    background-image: -webkit-linear-gradient(top, #c73eb7, #f028e9);
+    background-image: -moz-linear-gradient(top, #c73eb7, #f028e9);
+    background-image: -ms-linear-gradient(top, #c73eb7, #f028e9);
+    background-image: -o-linear-gradient(top, #c73eb7, #f028e9);
+    background-image: linear-gradient(to bottom, #c73eb7, #f028e9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+  }
+  
+  .btn:hover {
+    background: #e60961;
+    background-image: -webkit-linear-gradient(top, #e60961, #d93491);
+    background-image: -moz-linear-gradient(top, #e60961, #d93491);
+    background-image: -ms-linear-gradient(top, #e60961, #d93491);
+    background-image: -o-linear-gradient(top, #e60961, #d93491);
+    background-image: linear-gradient(to bottom, #e60961, #d93491);
+    text-decoration: none;
+    
+  }
+
+  .bottom-section{
+      margin-top: 60px;
+      height: 100px;
+      background-color: #f028e9;
+      padding-top: 50px;
+  }
+
+  .footer-link{
+      color: #8f3156;
+      padding: 10px;
+      font-family: ;
+      text-decoration: none;
+      font-family: monospace;
+      font-size: large;
+  }
+  a:hover{
+      color: floralwhite;
+      
+  }
